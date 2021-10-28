@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+body  {
+
+background-image: url('./927090.jpg');
+
+background-color: #cccccc;
+background-size: cover; 
+}
+
+
+.players_list{
+  display: flex;
+  border-radius: 20px;
+  left: 10%;
+  top: 35%;
+  width: 45%;
+  cursor: pointer;
+  position: absolute;
+}
+.player{
+  display: block;
+  margin-left: 10px;
+  margin-top: 1vh;
+  padding: 20px;
+  padding-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large 5px;
+  font-weight: bold;
+  background-color:#dedbe9;
+  border-radius: 2vh;
+  width: 250px;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px grey;
+  opacity: 0.9;
+}
+.Mini_img{
+  border: 2px solid black;
+  width: 100px;
+  height: 15vh;
+}
+.header{
+  position:fixed;  
+  left: 65%;
+  display: flex;
+  font-size: 75px;
+
+}
+.header_numb{
+  position:fixed;  
+  left: 75%;
+  margin-left: 1vh;
+  display: flex;
+  font-size: 75px;
+  color: gold;
+  border: 1px black;
+}
+.player_name{
+  font-size: 25px;
+  font-style: bold;
+  color: black;
+
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media only screen and (max-width: 700px) {
+ .players_list{
+   display: block;
+ }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

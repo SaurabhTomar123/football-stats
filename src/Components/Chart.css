@@ -1,0 +1,9 @@
+.Player_Chart{
+    position: fixed;
+   margin-left: 5%;
+   margin-top: 10%;
+   margin-right: 50%;
+   background: inherit;
+   box-sizing:border-box;
+   box-shadow: 4px 0px 4px grey;
+};

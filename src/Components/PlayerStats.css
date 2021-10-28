@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.player_info{
+    display: flex;
+  
+    
+    background-color: blue;
+    
+    
+    align-items: center;
+    top: 25%;    
+    left: 60%;
+    
+    position: absolute;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+.player_info_container{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+  
+    font-style: italic;
+    
+    align-items: center;
+    top: 25%;    
+    left: 60%;
+    padding-left: 20px;
+    background-color: rgb(241, 235, 235);
+    color: black;
+    
+ 
+}
+.header2{
+ position: fixed;
+ right: 50%;
+ font-style: italic;
+ font-size: 40px;
+ line-height: 40px;
+ font-weight: lighter;
+}
+.player_pic{
+ position: fixed;
+ right: 42%;
+ margin-top: 1vh;
+ background-color: inherit;
+ max-width: 100px;
+ max-height: 100px;
+ border: none;
+}
+.vl {
+    border-left: 2px solid grey;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    margin-left: -3px;
+    top: 25%;
+    
+}
+
+.rectangle1 {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    font-style: italic;
+    color: honeydew;
+    border-radius: 15px;
+     left: 62%;
+     top: 15%;
+     box-shadow: 3px 3px 3px grey;
+     padding-top: 10px;
+     
+  }
+  .rectangle2 {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    font-style: italic;
+    color: honeydew;
+    border-radius: 15px;
+     left: 74%;
+     top: 15%;
+     box-shadow: 3px 3px 3px grey;
+     padding-top: 10px;
+  }
+  .home{
+      border: none;
+      position: fixed;
+      background-color: inherit;
+      color: grey;
+      left: 5%;
+      top: 5%;
+      cursor: pointer;
+      width: 20vh;
+      height: 6vh;
+      font-size: 20px;
+      font-style: italic;
+  }
+  @media only screen and (min-width:800px){
+      .container{
+          display: flex;;
+      }
+  }
