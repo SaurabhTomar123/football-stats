@@ -1,18 +1,26 @@
-# Getting Started with Create React App
+FOOTBALL-STATS
+This is an interactive website displaying statistics on Fifa football players.
+This application is divided into two pages.
+First page includes a searchbar for searching players on the basis of their names,nationality or their football club.
+![1](https://user-images.githubusercontent.com/83553327/139276283-768ba82f-611f-496c-8d38-57ac71f45aca.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Second page is a landing page and displays the stats of the players and  their strong and weak points using the charts.(Currently Only One PLayer's Stats are displayed in the code)
+The library used for displaying stats chart is `recharts.js`:https://recharts.org/en-US/api/RadarChart
+
+![3](https://user-images.githubusercontent.com/83553327/139276609-420da5c7-6610-4e6b-b646-40440e08a5aa.png)
+## `Instructions For Installation`
 
 In the project directory, you can run:
+### `npm i`
 
-### `yarn start`
-
-Runs the app in the development mode.\
+Install the app using command: "npm i".After installing all the required node modules
+### `npm start`
+After installing all the required node modules.
+Runs the app in the development mode.\ using command "npm start"
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will reload if you make edits.
 
 ### `yarn test`
 
@@ -29,42 +37,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `Possible Improvements`
+Some of the imporvements that can be done are:
+1: Application can be build with better Responsive design for mobile or low-resolution devices
+2: Statistics of all the players can be evaluated and displayed using react components rather than only one player
+3: Players can be added using an api 
